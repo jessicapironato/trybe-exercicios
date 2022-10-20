@@ -1,0 +1,67 @@
+
+ol li {
+    background-color: yellow;
+}
+
+ /* usar nth-child ()- even > par e odd > ímpar */
+ol li:nth-child(even) {
+    color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    color:red
+}
+
+h1 em, h2 em {
+    font-size: 40px;
+    border: 1px solid black
+}
+
+li {
+    font-size: 20px;
+
+}
+
+li em {
+    font-weight: 900;
+}
+
+/* n é um contador que começa em zero a formula é -n + o numero que quer usar. o n começa a valer 0, depois 1, depois 3.... -0 + 3: 3  -1 + 3:2  -2 + 3 : 1*/
+
+#linguagens li:nth-child(-n + 3)  {
+    color:blue
+
+}
+
+.rosa {
+    background-color: pink
+}
+
+/* ao passar o mouse em cima, com o hover fica em destaque negrito */
+#sites li a:hover {
+    font-weight: 900;
+}
+
+#sites li a[href="https://pt.stackoverflow.com/"]:hover {
+    color: orange;
+}
+
+#sites li a[href="https://www.w3schools.com/"]:hover {
+    color: green;
+}
+
+#sites li a[href="https://developer.mozilla.org/pt-BR/"]:hover {
+    color: brown;
+}
+
+#sites li a[href="https://devdocs.io/"]:hover {
+    color: blue
+}
+
+#sites li a[href="https://app.betrybe.com/"]:hover {
+    color: aqua
+}
