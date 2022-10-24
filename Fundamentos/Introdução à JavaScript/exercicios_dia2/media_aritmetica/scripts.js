@@ -12,3 +12,8 @@ media = soma / numbers.length;
 console.log (media);
 
 
+if (media < 20){
+    console.log ("o valor é menos que 20")
+} else {
+    console.log ("o valor é maior que 20")
+}
