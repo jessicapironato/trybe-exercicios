@@ -22,6 +22,8 @@ for(let index=0; index < array.length; index +=1){
 };
 
 
-console.log(palavraMaior , palavraMenor)
+console.log("A palavra maior é:" , palavraMaior, "e" , "a palavra menor é:",palavraMenor)
 
-
+// explicando primeiro if -  serve para o segundo tb:
+// se o array na posição atual >>> if(array[java].length for maior que o tamanho da palavra maior no array inteiro), então a palavraMaior receberá o array atual, ou seja, o java.
+// etao nessa logica, o java é comparado ao javascript, pyton, html e css, para saber se ele é maior e se sim, o palavraMaior guarda ele. O mesmo para a lógica do palavraMenor.
