@@ -4,7 +4,10 @@
 let fatorial=1;
 
 for(let i=10; i >0; i -=1) {
-    fatorial= fatorial * i
+    fatorial *=  i
 };
 
 console.log("O fatorial de 10 é: " , fatorial)
+
+// += guarda o valor encontrado e soma ao todo
+// outras formas: fatorial = fatorial * i
