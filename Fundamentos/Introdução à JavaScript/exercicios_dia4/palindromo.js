@@ -3,15 +3,18 @@
 function palindromo(palavra) {
     
     for(index in palavra){
-        if(palavra[index] != palavra[(palavra.length - 1) - index]){return false
+        if(palavra[index] != palavra[(palavra.length - 1) - index]){
+            return false
 
         }
-        return true;
+        
     }
-    
+    return true;
 }
-console.log(palindromo('arara'));
+console.log(palindromo('otavio'));
 console.log(palindromo('desenvolvimento'));
+
+// return dentro de um for >>> parar esse for. Quando dá o false, para e retorna.
 
 // outra forma de fazer: Primeiro o método split transformará a string em um array onde cada posição será uma letra da string. Depois o método reverse fará o array ficar de trás pra frente. Em seguida o método join faz com que todo o array vire uma string novamente.
 
@@ -21,9 +24,9 @@ function palindromo(palavra){
         return true;
     } else{
         return false;
-    }
+//     }
 
     
-}
-console.log(palindromo('arara'));
-console.log(palindromo('desenvolvimento'));
+// }
+// console.log(palindromo('arara'));
+// console.log(palindromo('desenvolvimento'));
